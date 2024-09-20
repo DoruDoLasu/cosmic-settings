@@ -12,7 +12,7 @@ wired = Przewodowe
 ## Networking: Online Accounts
 
 online-accounts = Konta Online
-    .desc = Dodaj konta, IMAP, SMTP i logowanie firmowe
+    .desc = Dodaj konta, IMAP, SMTP, logowanie firmowe
 
 ## Desktop
 
@@ -28,11 +28,11 @@ wallpaper = Tapeta
     .image-dialog = Wybierz obraz tapety
     .plural = Tapety
     .same = Ta sama tapeta na wszystkich wyświetlaczach
-    .slide = Pokaz Slajdów
+    .slide = Pokaz slajdów
 
 add-color = Dodaj kolor
 add-image = Dodaj obraz
-all-displays = Wszystkie Wyświetlacze
+all-displays = Wszystkie wyświetlacze
 colors = Kolory
 dialog-add = Dodaj
 fill = Wypełnij
@@ -75,16 +75,16 @@ rgb = RGB
 window-hint-accent = Kolor wyróżnienia aktywnego okna
 window-hint-accent-toggle = Użycie koloru z motywu jako wyróżnienia aktywnego okna
 
-auto-switch = Automatycznie zmieniaj z trybu Jasnego na Ciemny
-    .sunrise = Zmienia na Jasny tryb o świcie
-    .sunset = Zmienia na Ciemny tryb o zmierzchu
-    .next-sunrise = Zmienia na Jasny tryb podczas następnego świtu
-    .next-sunset = Zmienia na Ciemny tryb podczas następnego zmierzchu
+auto-switch = Automatycznie zmieniaj z trybu jasnego na ciemny
+    .sunrise = Zmienia na jasny tryb o świcie
+    .sunset = Zmienia na ciemny tryb o zmierzchu
+    .next-sunrise = Zmienia na jasny tryb podczas następnego świtu
+    .next-sunset = Zmienia na ciemny tryb podczas następnego zmierzchu
 
 container-background = Tło kontenera
     .desc-detail = Kolor tła kontenera jest używany do nawigacji panelem bocznym, bocznym szkicownikiem, dialogami i podobnymi widżetami. Domyślnie wywodzi się on z Aplikacji lub tła okna.
     .reset = Resetuj do automatycznych
-    .desc = Główny kolor kontenera jest używany do bocznego panelu nawigacji, bocznego szkicownika, dialogów i podobnych widżetów.
+    .desc = Główny kolor kontenera jest używany do bocznego panelu nawigacji, bocznego, dialogów i podobnych widżetów.
 
 control-tint = Sterowanie odcieniami komponentów
     .desc = Używany do tła standardowych przycisków, wprowadzania wyszukiwania, wprowadzania tekstu i podobnych komponentów.
@@ -94,8 +94,8 @@ frosted = Efekt zmrożonego szkła na interfejsie systemowym
 
 experimental-settings = Ustawienia eksperymentalne
 
-enable-export = Użyj tego motywu do apek GNOME.
-    .desc = Nie wszystkie toolkity wspierają automatyczne zmiany. Apki inne niż COSMIC mogą wymagać restartu do zmiany motywu.
+enable-export = Użyj tego motywu do aplikacji GNOME.
+    .desc = Nie wszystkie toolkity wspierają automatyczne zmiany. Aplikacje inne niż COSMIC mogą wymagać restartu do zmiany motywu.
 
 icon-theme = Motyw ikon
     .desc = Zastosuj inny zbiór ikon do aplikacji.
@@ -109,14 +109,14 @@ style = Styl
     .square = Kwadratowy
 
 # interface density left out for now
-window-management-appearance = Zarządzanie Oknami
+window-management-appearance = Zarządzanie oknami
     .active-hint = Rozmiar wyróżnienia aktywnego okna
     .gaps = Przerwa między ramkami okien w trybie kafelków
 
 ## Desktop: Notifications
 
 notifications = Powiadomienia
-    .desc = Nie przeszkadzać, powiadomienia ekranu blokady oraz ustawienia konkretnej aplikacji.
+    .desc = Nie przeszkadzać, powiadomienia ekranu blokady oraz ustawienia konkretnych aplikacji.
 
 ## Desktop: Panel
 
@@ -124,12 +124,12 @@ panel = Panel
     .desc = Górna belka ze sterowaniem pulpitem i menu.
 
 add = Dodaj
-add-applet = Dodaj Aplet
+add-applet = Dodaj aplet
 all = Wszystkie
 applets = Aplety
-center-segment = Człon Środkowy
+center-segment = Segment środkowy
 drop-here = Tutaj upuść aplety
-end-segment = Człon Końcowy
+end-segment = Segment końcowy
 large = Duży
 no-applets-found = Nie znaleziono apletów...
 panel-bottom = Dolny
@@ -138,14 +138,14 @@ panel-right = Prawy
 panel-top = Górny
 search-applets = Wyszukaj aplety...
 small = Mały
-start-segment = Człon Początkowy
+start-segment = Segment początkowy
 
 panel-appearance = Wygląd
-    .match = Dopasuj do Pulpitu
+    .match = Dopasuj do pulpitu
     .light = Jasny
     .dark = Ciemny
 
-panel-behavior-and-position = Funkcjonowanie i Pozycja
+panel-behavior-and-position = Funkcjonowanie i pozycja
     .autohide = Automatycznie chowaj panel
     .dock-autohide = Automatycznie chowaj panel
     .position = Pozycja na ekranie
@@ -158,14 +158,14 @@ panel-style = Styl
     .dock-extend = Rozszerz dok do krawędzi ekranu
     .appearance = Wygląd
     .size = Rozmiar
-    .background-opacity = Przejrzystość Tła
+    .background-opacity = Przejrzystość tła
 
 panel-applets = Konfiguracja
     .dock-desc = Konfiguracja apletów doku.
     .desc = Konfiguracja apletów panelu.
 
-panel-missing = Brakuje Konfiguracji Panelu
-    .desc = Brakuje pliku konfiguracji panelu, albo z powodu użycia spersonalizowanej konfiguracji, albo plik jest uszkodzony.
+panel-missing = Brakuje konfiguracji panelu
+    .desc = Nie można znaleść pliku konfiguracji panelu z powodu użycia spersonalizowanej konfiguracji albo jest uszkodzony.
     .fix = Przywróć ustawienia domyślne
 
 ## Desktop: Dock
@@ -179,39 +179,39 @@ window-management = Zarządzanie oknami
     .desc = Akcje klawisza super, ustawienia kontroli okien i dodatkowe ustawienia kafelkowania okien.
 
 super-key = Klawisz Super
-    .launcher = Otwórz Program Startowy
-    .workspaces = Otwórz Obszary Robocze
-    .applications = Otwórz Aplikacje
+    .launcher = Otwórz program startowy
+    .workspaces = Otwórz obszary robocze
+    .applications = Otwórz aplikacje
 
 window-controls = Sterowanie Oknem
-    .maximize = Pokaż Przycisk Maksymalizacji
-    .minimize = Pokaż Przycisk Minimalizacji
+    .maximize = Pokaż przycisk maksymalizacji
+    .minimize = Pokaż przycisk minimalizacji
     
 ## Desktop: Workspaces
 
-workspaces = Obszary Robocze
+workspaces = Obszary robocze
     .desc = Zachowanie i kierunek obszaru roboczego.
 
-workspaces-behavior = Funkcjonowanie Obszaru Roboczego
+workspaces-behavior = Funkcjonowanie obszaru roboczego
     .dynamic = Dynamiczne obszary robocze
     .dynamic-desc = Puste obszary robocze są automatycznie usuwane.
     .fixed = Stała liczba obszarów roboczych
     .fixed-desc = Dodaj lub usuń obszar roboczy w podglądzie.
 
-workspaces-multi-behavior = Funkcjonowanie Przy Wielu Monitorach
-    .span = Obszary Robocze Wspólne Dla Wyświetlaczy
-    .separate = Wyświetlacze Mają Osobne Obszary Robocze
+workspaces-multi-behavior = Funkcjonowanie przy wielu monitorach
+    .span = Obszary robocze wspólne dla wyświetlaczy
+    .separate = Wyświetlacze mają osobne obszary robocze
 
-workspaces-overview-thumbnails = Miniatury Podglądu Obszaru Roboczego
-    .show-number = Pokaż Numer Obszaru Roboczego
-    .show-name = Pokaż Nazwę Obszaru Roboczego
+workspaces-overview-thumbnails = Miniatury podglądu obszaru roboczego
+    .show-number = Pokaż numer obszaru roboczego
+    .show-name = Pokaż nazwę obszaru roboczego
 
-workspaces-orientation = Kierunek Obszarów Roboczych
+workspaces-orientation = Ułożenie obszarów roboczych
     .vertical = Pionowy
     .horizontal = Poziomy
 
-hot-corner = Hot Corner
-    .top-left-corner = Włącz lewy górny narożnik funkcyjny w Obszarach Roboczych
+hot-corner = Gorący róg
+    .top-left-corner = Włącz lewy górny gorący róg w obszarach roboczych
 
 ## Displays
 
@@ -220,38 +220,38 @@ hot-corner = Hot Corner
 color = Kolor
     .depth = Głębia koloru
     .profile = Profil koloru
-    .sidebar = Profile Koloru
+    .sidebar = Profile koloru
     .temperature = Temperatura koloru
 
 display = Wyświetlacz
-    .desc = Zarządzaj wyświetlaczami, zmianami karty graficznej i nocnym światłem
+    .desc = Zarządzaj wyświetlaczami, zmienianiem karty graficznej i nocnym światłem
     .arrangement = Układ wyświetlaczy
     .arrangement-desc = Przeciągaj wyświetlacze by zmienić układ.
     .enable = Włącz wyświetlacz
-    .external = { $size } { $output } Zewnętrzny Wyświetlacz
-    .laptop = { $size } Wyświetlacz Laptopa
-    .options = Opcje Wyświetlacza
+    .external = { $size } { $output } zewnętrzny wyświetlacz
+    .laptop = { $size } wyświetlacz laptopa
+    .options = Opcje wyświetlacza
     .refresh-rate = Prędkość odświeżania ekranu
     .resolution = Rozdzielczość
     .scale = Skala
 
-mirroring = Lustrzane Odbicie
-    .id = Lustrzane Odbicie { $id }
-    .dont = Nie stosuj Lustrzanego Odbicia
-    .mirror = Zastosuj Lustrzene Odbicie { $display }
-    .project = Rzutuj na { $display ->
-        [all] wszystkie wyświetlacze
-        *[other] { $display }
-    }
-    .project-count = Rzutuj na { $count} { $count ->
-        [1] inny
-        [Few] inne
-        *[other] innych
-    } { $count ->
-        [1] wyświetlacz
-        [Few] wyświetlacze
-        *[other] wyświetlaczy
-    }
+## mirroring = Lustrzane Odbicie
+##    .id = Lustrzane Odbicie { $id }
+##    .dont = Nie stosuj Lustrzanego Odbicia
+##    .mirror = Zastosuj Lustrzene Odbicie { $display }
+##    .project = Rzutuj na { $display ->
+##        [all] wszystkie wyświetlacze
+##        *[other] { $display }
+##    }
+##    .project-count = Rzutuj na { $count} { $count ->
+##        [1] inny
+##        [Few] inne
+##        *[other] innych
+##    } { $count ->
+##        [1] wyświetlacz
+##        [Few] wyświetlacze
+##        *[other] wyświetlaczy
+##    }
 
 night-light = Nocne Światło
     .auto = Automatyczne (od świtu do zmierzchu)
@@ -267,20 +267,20 @@ scheduling = Harmonogram
     .manual = Ręcznie ustawiony harmonogram
 
 dialog = Dialog
-    .title = Czy Zachować Te Ustawienia Wyświetlacza?
-    .keep-changes = Zachowaj Zmiany
+    .title = Czy zachować te ustawienia wyświetlacza?
+    .keep-changes = Zachowaj zmiany
     .change-prompt = Ustawienia automatycznie powrócą do poprzednich za { $time ->
         [1] sekundę.
         [few] {$time} sekundy.
         *[other] {$time} sekund.
     }
-    .revert-settings = Powróć Do Poprzednich Ustawień
+    .revert-settings = Powróć do poprzednich ustawień
 
-legacy-applications = Skalowanie Aplikacji z Systemu Okien X11
-    .scaled-by-system = Skaluj wszystkie Aplikacje X11
-    .system-description = Aplikacje X11 będą rozmyte na wyświetlaczach z wysokim DPI.
-    .scaled-natively = Renderuj Aplikacje X11 w pierwotnej rozdzielczości.
-    .native-description = Aplikacje X11 które nie wspierają skalowania będą małe na wyświetlaczach z wysokim DPI. Włącz do gier by wykorzystywały pełną rozdzielczość monitora.
+legacy-applications = Skalowanie aplikacji z systemu okien X11
+    .scaled-by-system = Skaluj wszystkie aplikacje X11
+    .system-description = Aplikacje X11 będą rozmyte na wyświetlaczach HiDPI.
+    .scaled-natively = Renderuj aplikacje X11 w natywnej rozdzielczości.
+    .native-description = Aplikacje X11 które nie wspierają skalowania będą małe na wyświetlaczach HiDPI. Włącz by gry mogły korzystać z pełnej rozdzielczość monitora.
 
 ## Sound
 
@@ -310,6 +310,9 @@ profile = Profil
 
 ## Power
 
+connected-devices = Połączone urządzenia
+  .unknown = Nieznane urządzenie
+
 power = Zasilanie
   .desc = Zarządzaj ustawieniami zasilania
 
@@ -317,22 +320,23 @@ battery = Bateria
   .remaining-time = { $time } pozostało
 
 power-mode = Profile Zasilania
-  .performance = Tryb Wysokowydajny
-  .balanced = Tryb Zbalansowany
-  .battery = Tryb Oszczędzania Energii
-  .performance-desc = Najwyższa wydajność i zwiększone zużycie energii.
-  .balanced-desc = Standardowa wydajność i zużycie baterii.
-  .battery-desc = Zmniejszone zużycie energii i zmniejszona wydajność.
+  .battery = Tryb oszczędzania energii
+  .battery-desc = Zmniejszone zużycie energii przy zmniejszonej wydajnośći.
+  .balanced = Tryb zbalansowany
+  .balanced-desc = Standardowa wydajność i zużycie energii.
+  .performance = Tryb wydajny
+  .performance-desc = Najwyższa wydajność ale zwiększone zużycie energii.
+
   .no-backend = Nie znaleziono backendu. Zainstaluj system76-power lub power-profiles-daemon.
 
 ## Input
 
-acceleration-desc = Automatycznie dostosuj dokładność śledzenia do prędkości ruchu.
+acceleration-desc = Automatycznie dostosuj szybkość kursora do szybkości ruchu.
 
 disable-while-typing = Wyłącz podczas pisania
 
-input-devices = Urządzenia Wprowadzania Danych
-    .desc = Urządzenia Wprowadzania Danych
+input-devices = Urządzenia wejściowe
+    .desc = Urządzenia wejściowe
 
 primary-button = Główny przycisk
     .desc = Ustawia kolejność fizycznych przycisków
@@ -341,43 +345,43 @@ primary-button = Główny przycisk
 
 scrolling = Przewijanie
     .two-finger = Przewijaj dwoma palcami
-    .edge = Przewijaj jednym palcem przy krawędzi
+    .edge = Przewijaj jednym palcem po krawędzi
     .speed = Prędkość przewijania
     .natural = Naturalne przewijanie
     .natural-desc = Przewijaj zawartość, nie widok
 
 ## Input: Keyboard
 
-slow = Wolno
-fast = Szybko
-short = Któtko
-long = Długo
+slow = wolno
+fast = szybko
+short = któtko
+long = długo
 keyboard = Klawiatura
-    .desc = Wprowadzanie danych, zmienianie, wprowadzanie znaków specjalnych i skróty na klawiaturze.
+    .desc = Układy klawiatury, wprowadzanie znaków specjalnych i skróty klawiaturowe.
 
-keyboard-sources = Żródła Wprowadzania Danych
-    .desc = Żródła Wprowadzania Danych można zmienić naciskając kombinację klawiszy Super i Spację. Może być to spersonalizowane w ustawieniach skrótów klawiaturowych.
+keyboard-sources = Układy klawiatury
+    .desc = Układy klawiatury domyślnie przełącza się naciskając klawisze Super i Spację jednocześnie. Można to zmienić w ustawieniach skrótów klawiaturowych.
     .move-up = Przesuń w górę
     .move-down = Przesuń w dół
     .settings = Ustawienia
     .view-layout = Pokaż układ klawiatury
     .remove = Usuń
-    .add = Dodaj źródło wprowadzania danych
+    .add = Dodaj układ klawiatury
 
-keyboard-special-char = Wpis Znaków Specjalnych
-    .alternate = Alternatywne klawisze znaków
-    .compose = Ustaw klawisz
+keyboard-special-char = Wpisywanie znaków specjalnych
+    .alternate = Klawisz znaków specjalnych
+    .compose = Klawisz Compose
 
 keyboard-typing-assist = Pisanie
     .repeat-rate = Tempo powtarzania
     .repeat-delay = Opóżnienie powtarzania
 
 added = Dodany
-type-to-search = Naciśnij by wyszukać...
+type-to-search = Napisz aby wyszukać...
 
 ## Input: Keyboard: Shortcuts
 
-keyboard-shortcuts = Skróty Klawiaturowe
+keyboard-shortcuts = Skróty klawiaturowe
     .desc = Obejrzyj i spersonalizuj skróty
 
 add-keybinding = Dodaj skrót klawiszowy
@@ -404,8 +408,8 @@ type-key-combination = Wpisz kombinację klawiszy
 
 custom-shortcuts = Własne skróty klawiszowe
     .add = Dodaj skrót klawiszowy
-    .context = Dodaj Własny skrót klawiszowy
-    .none = Nie masz własych skrótów klawiszowych
+    .context = Dodaj własne skróty klawiszowe
+    .none = Nie masz żadnych skrótów klawiszowych
 
 modified = { $count } zmodyfikowano
 
@@ -415,11 +419,11 @@ nav-shortcuts = Nawigacja
     .last-workspace = Przełącz na ostatni obszar roboczy
     .prev-workspace = Przełącz na poprzedni obszar roboczy
     .next-workspace = Przełącz na następny obszar roboczy
-    .focus = Przełącz { $direction ->
+    .focus = Skup { $direction ->
         *[down] na dolne okno
-        [in] na okno
+        [in] do środka okna
         [left] na lewe okno
-        [out] z okna
+        [out] na zewnątrz okna
         [right] na prawe okno
         [up] na górne okno
     }
@@ -435,28 +439,28 @@ manage-windows = Zarządzanie oknami
     .close = Zamknij okno
     .maximize = Maksymalizuj okno
     .minimize = Minimalizuj okno
-    .resize-inwards = Powiększ okno
-    .resize-outwards = Powiększ okno
+    .resize-inwards = Zmień rozmiar do środka
+    .resize-outwards = Zmień rozmiar na zewnątrz
     .toggle-sticky = Przełącznik zakrywających okien
 
 move-windows = Przemieszczanie okien
-    .direction = Przemieść okno { $direction ->
-        *[down] w dół
-        [left] w lewo
-        [right] na prawo
-        [up] w górę
+    .direction = Przemieść okno w { $direction ->
+        *[down] dół
+        [left] lewo
+        [right] prawo
+        [up] górę
     }
-    .display = Przenieś okno o jeden monitor { $direction ->
-        *[down] w dół
-        [left] w lewo
-        [right] na prawo
-        [up] w górę
+    .display = Przenieś okno o jeden monitor w { $direction ->
+        *[down] dół
+        [left] lewo
+        [right] prawo
+        [up] górę
     }
-    .workspace = Przenieś okno o jeden obszar roboczy { $direction ->
-        *[below] niżej
-        [left] w lewo
-        [right] w prawo
-        [above] wyżej
+    .workspace = Przenieś okno o jeden obszar roboczy w { $direction ->
+        *[below] dół
+        [left] lewo
+        [right] prawo
+        [above] górę
     }
     .workspace-num = Przenieś okno do obszaru roboczego { $num }
     .prev-workspace = Przenieś okno do poprzedeniego obszaru roboczego
@@ -468,7 +472,7 @@ move-windows = Przemieszczanie okien
     .send-to-next-workspace = Przenieś okno do następnego obszaru roboczego
 
 system-shortcut = System
-    .app-library = Otwórz bibliotekę apek
+    .app-library = Otwórz bibliotekę aplikacji
     .brightness-down = Zmniejsz jasność wyświetlacza
     .brightness-up = Zwiększ jasność wyświetlacza
     .home-folder = Otwórz katalog domowy
@@ -476,15 +480,15 @@ system-shortcut = System
     .keyboard-brightness-up = Zwiększ jasność klawiatury
     .launcher = Otwórz program startowy
     .lock-screen = Zablokuj ekran
-    .mute = Wycisz dzwięk wyjścia
-    .mute-mic = Wycisz wejście mikrofonu
+    .mute = Wycisz głośnik
+    .mute-mic = Wycisz mikrofon
     .play-pause = Odtwarzaj/Zatrzymaj
     .play-next = Następny utwór
     .play-prev = Poprzedni utwór
     .screenshot = Zrób zrzut ekranu
     .terminal = Otwórz terminal
-    .volume-lower = Zmniejsz głośność wyjścia dźwięku
-    .volume-raise = Zwiększ głośność wyjścia dźwięku
+    .volume-lower = Zmniejsz głośność głośnika
+    .volume-raise = Zwiększ głośność głośnika
     .web-browser = Otwórz przeglądarkę
     .window-switcher = Przełącz między otwartymi oknami
     .workspace-overview = Otwórz podgląd obszaru roboczego
@@ -496,10 +500,10 @@ window-tiling = Kafelkowanie okien
     .toggle-tiling = Przełącz na kafelkowanie okien
     .toggle-stacking = Przełącznik grupowania w kartach
     .toggle-floating = Przełącz na pływające okna
-    .toggle-orientation = Przełącznik kierunku
+    .toggle-orientation = Przełącz kierunek
 
 replace-shortcut-dialog = Zmienić skrót?
-    .desc = { $shortcut } jest używany przez { $name }. Jeśli go zamienisz, skrót do { $name } będzie wyłączony.
+    .desc = { $shortcut } jest używany przez { $name }. Jeśli go zastąpisz, skrót do { $name } zostanie wyłączony.
 
 ## Input: Mouse
 
@@ -511,19 +515,19 @@ mouse = Myszka
 ## Input: Touchpad
 
 click-behavior = Funkcjonowanie Kliknięć
-    .click-finger = Drugi przycisk uzyskujemy kliknięciem dwoma palcami, a środkowy przycisk trzema
-    .button-areas = Drugi przycisk uzyskujemy kliknięciem w prawy dolny róg, a środkowy przycisk kliknięciem w środek dołu
+    .click-finger = Akcja prawego przycisku myszy przez dotknięcie dwoma palcami, a środkowy trzema
+    .button-areas = Akcja prawego przycisku przez dotknięcie w prawy dolny róg, a środkowy kliknięciem w dolny środek
 
 pinch-to-zoom = Uszczypnij by przybliżyć
-    .desc = Zbliż dwa palce do siebie by przybliżyć zawartość, w aplikacjach używających przybliżenia.
+    .desc = Zbliż dwa palce do siebie by przybliżyć zawartość, dla aplikacji wspierających przybliżenianie.
 
-tap-to-click = Tap to click
-    .desc = Enables single-finger tap for primary click, two-finger tap for secondary click, and three-finger tap for middle click.
+tap-to-click = Dotknij by kliknąć
+    .desc = Dotknięcie jednym palcem klika lewym przyciskiem myszy, dwoma prawym, a trzema środkowym.
 
-touchpad = Gładzik
+touchpad = Panel dotykowy
     .acceleration = Włącz przyśpieszenie gładzika
     .desc = Prędkość, opcje klikania i gesty gładzikiem.
-    .speed = Prędkość Gładzika
+    .speed = Prędkość gładzika
 
 ## Input: Gestures
 
@@ -536,7 +540,7 @@ gestures = Gesty
 
 switch-workspaces = Przełączenie pomiędzy obszarami roboczymi
     .horizontal = Przesunięcie czterema palcami w lewo/prawo
-    .vertical = Przesunięcie czterema palcami w góra/dół
+    .vertical = Przesunięcie czterema palcami w górę/dół
 switch-between-windows = Przełączenie pomiędzy oknami
 open-application-library = Otwarcie biblioteki aplikacji
 open-workspaces-view = Otwarcie podglądu obszarów roboczych
@@ -559,47 +563,47 @@ time-format = Format Daty i Czasu
     .twenty-four = Czas 24-godzinny
     .show-seconds = Pokaż sekundy
     .first = Pierwszy dzień tygodnia
-    .show-date = Pokaż Datę w Górnym Panelu
+    .show-date = Pokaż datę w górnym panelu
     .friday = Piątek
     .saturday = Sobota
     .sunday = Niedziela
     .monday = Poniedziałek
 
 time-region = Region i Język
-    .desc = Format dat, czasu i numerów na podstawie wybranego regionu
+    .desc = Format dat, czasu i liczb na podstawie wybranego regionu
 
 ## System
 
-system = System i Konta
+system = System i konta
 
 ## System: About
 
-about = O Systemie
+about = O systemie
     .desc = Nazwa urządzenia, informacje o sprzęcie, domyślne ustawienia systemu.
 
 about-device = Nazwa urządzenia
-    .desc = Ta nazwa wyświetla się innym w sieci i na urządzeniach bluetooth.
+    .desc = Ta nazwa pokazuje się innym w sieci i na urządzeniach bluetooth.
 
 about-hardware = Sprzęt
-    .model = Model Sprzętu
+    .model = Model sprzętu
     .memory = Pamięć
     .processor = Procesor
     .graphics = Grafika
-    .disk-capacity = Pojemność Dysku
+    .disk-capacity = Pojemność dysku
 
 about-os = System Operacyjny
-    .os = System Operacyjny
-    .os-architecture = Architektura Systemu Operacyjnego
-    .desktop-environment = Środowisko Graficzne
-    .windowing-system = System Okien
+    .os = System operacyjny
+    .os-architecture = Architektura systemu operacyjnego
+    .desktop-environment = Środowisko graficzne
+    .windowing-system = System okien
 
-about-related = Pokrewne Ustawienia
-    .support = Uzyskaj Wsparcie
+about-related = Podobne Ustawienia
+    .support = Uzyskaj wsparcie
 
 ## System: Firmware
 
-firmware = Mikrooprogramowanie
-    .desc = Szczegóły Mikrooprogramowania
+firmware = Oprogramowanie sprzętowe
+    .desc = Szczegóły oprogramowania sprzętowego
 
 ## System: Users
 
